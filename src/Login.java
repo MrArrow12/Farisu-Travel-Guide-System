@@ -73,7 +73,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(300, 140, 53, 25);
+        jButton2.setBounds(300, 140, 51, 25);
 
         Register.setText("Register");
         Register.addActionListener(new java.awt.event.ActionListener() {
@@ -82,7 +82,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
         getContentPane().add(Register);
-        Register.setBounds(390, 140, 79, 25);
+        Register.setBounds(390, 140, 75, 25);
 
         jCheckBox1.setText("Show password");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
@@ -104,9 +104,9 @@ public class Login extends javax.swing.JFrame {
         jPasswordField1.setBounds(150, 110, 130, 22);
 
         jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 24)); // NOI18N
-        jLabel2.setText("FARISU Web Based Travel Guide System ");
+        jLabel2.setText("FARISU Travel Guide System ");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(20, 10, 530, 50);
+        jLabel2.setBounds(100, 20, 330, 50);
 
         jLabel4.setText("Username");
         getContentPane().add(jLabel4);
