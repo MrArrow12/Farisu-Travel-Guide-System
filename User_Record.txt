@@ -5,4 +5,5 @@ Cyberzone2;thenoobwar;
 Cyberzone4;derp;
 Farisu;abcd;
 alladin;alladin;
-derp12;derp12;
+kittycat;kittycat;
+cyberzone2;cyberzone2;

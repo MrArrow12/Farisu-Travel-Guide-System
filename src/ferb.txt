@@ -1,0 +1,11 @@
+
+Name : Faris
+Age :23
+Trip Location: Germany
+Accomodation: Single
+Flight: Standard
+Departure: Melaka International Airport
+Adult/Child: Child
+Hotel : Hotel Volkswagen
+Subtoal: RM18889.0
+Total : RM20022.34

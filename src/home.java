@@ -3,6 +3,8 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.sql.DriverManager;
+import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
@@ -23,9 +25,11 @@ import javax.swing.JOptionPane;
 public class home extends javax.swing.JFrame {
     private String Username;
     private String Password;
+    private int UserID;
     private BufferedImage img;
    private  ImageIcon icon , icon2, icon3, icon4, icon5;
     private Customer customer;
+    private Databases databases = null;
      private boolean OneTime = true;
      private boolean ComboSetUpdate = false;
     /**
@@ -39,14 +43,17 @@ public class home extends javax.swing.JFrame {
         System.out.println("Object created");
         
     }
-    public home(String Username, String Password) {
+    public home(String Username, String Password,int UserID, Databases databases ) {
+        
+        this.databases = databases;
         customer = new Customer();
         initComponents();
         setSize(1050,650);
         System.out.println("Object created");
         this.Username = Username;
         this.Password = Password;
-        welcome_sign.setText("<html>Welcome, "+this.Username+"</html>");
+        this.UserID = UserID;
+        welcome_sign.setText("<html>Welcome, "+this.Username+",UserID:"+UserID+"</html>");
     }
     
    
@@ -938,6 +945,8 @@ public class home extends javax.swing.JFrame {
 
     private void save_receiptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_save_receiptActionPerformed
         // TODO add your handling code here:
+        this.databases.setReceipt(customer.toString());
+        this.databases.UpdateRecord(UserID,false,false,true);
         JFileChooser fs =  new JFileChooser(new File("src"));
         fs.showSaveDialog(this);
         
@@ -951,6 +960,8 @@ public class home extends javax.swing.JFrame {
         } catch (IOException ex) {
             Logger.getLogger(home.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
+     
         
     }//GEN-LAST:event_save_receiptActionPerformed
 

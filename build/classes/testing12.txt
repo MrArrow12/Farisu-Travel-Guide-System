@@ -1,0 +1,11 @@
+
+Name : Faris 
+Age :24
+Trip Location: Germany
+Accomodation: Single
+Flight: Economy
+Departure: KLIA 
+Adult/Child: Child
+Hotel : Hotel Volkswagen
+Subtoal: RM21089.0
+Total : RM22354.34

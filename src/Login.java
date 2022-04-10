@@ -154,7 +154,8 @@ public class Login extends javax.swing.JFrame {
         if(jFormattedTextField2.getText().equals(this.Account.getUsername())   && jPasswordField1.getText().equals(this.Account.getPassword())           )
         {
             setVisible(false);
-            new home(this.Account.getUsername(),this.Account.getPassword()).setVisible(true);
+           new home(this.Account.getUsername(),this.Account.getPassword(), this.Account.getID(),this.Account).setVisible(true);
+          
             
         }
         
