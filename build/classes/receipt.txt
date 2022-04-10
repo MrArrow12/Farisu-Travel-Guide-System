@@ -1,0 +1,11 @@
+
+Name : Brian
+Age :22
+Trip Location: Germany
+Accomodation: Single
+Flight: First class 
+Departure: KLIA 
+Adult/Child: Adult
+Hotel : Hotel Volvo
+Subtoal: RM25149.0
+Total : RM26657.94

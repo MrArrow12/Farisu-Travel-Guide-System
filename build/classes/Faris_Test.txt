@@ -1,0 +1,11 @@
+
+Name : Faris
+Age :22
+Trip Location: Thailand
+Accomodation: Single
+Flight: First class 
+Departure: KLIA 
+Adult/Child: Adult
+Hotel : Hotel Koh Samu
+Subtoal: RM16637.0
+Total : RM17635.22
