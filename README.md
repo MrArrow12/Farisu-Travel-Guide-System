@@ -1,4 +1,4 @@
-# Farisu-Web-Based-Travel-Guide-System
+# Farisu-Travel-Guide-System
 
 This is a simple Java app project for my Travel Guide System. It allows users to manage their travel destination that contains:
 -User's location destination
